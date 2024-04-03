@@ -1,0 +1,39 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    font-family: sans-serif;
+    /* text-align: center; */
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: blue;
+    padding: 2em 0;
+}
+
+.left {
+    background: blue;
+    padding: 3em 0;
+}
+
+main {
+    background: blue;
+    padding: 3em 0;
+}
+
+.right {
+    background: blue;
+    padding: 3em 0;
+}
+
+footer {
+    background:  blue;
+    padding: 1em 0;
+}
