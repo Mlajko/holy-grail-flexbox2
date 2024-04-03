@@ -6,11 +6,12 @@
 body {
     background: lightblue;
     font-family: sans-serif;
-    /* text-align: center; */
+    text-align: center;
     color: white;
     font-size: 24px;
-    display: flex;
+    display: flex;  /* 1st flex */
     flex-direction: column;
+    height: 95vh;   /* set heigh after .main flex */
 }
 
 header {
@@ -21,19 +22,28 @@ header {
 .left {
     background: blue;
     padding: 3em 0;
+    flex: 1 1 100px;
 }
 
 main {
     background: blue;
     padding: 3em 0;
+    flex: 5 5 150px;
 }
 
 .right {
     background: blue;
     padding: 3em 0;
+    flex: 1 1 100px;
 }
 
 footer {
     background:  blue;
     padding: 1em 0;
 }
+
+.main{
+    display: flex;  /* 2nd flex */
+    flex: 1;
+}
+
