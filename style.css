@@ -11,35 +11,35 @@ body {
     font-size: 24px;
     display: flex;  /* 1st flex */
     flex-direction: column;
-    height: 95vh;   /* set heigh after .main flex */
+    height: 99vh;   /* set heigh after .main flex */
 }
 
 header {
     background: blue;
-    padding: 2em 0;
+    padding: 2em 0 2em 0;
 }
 
 .left {
     background: blue;
-    padding: 3em 0;
+    padding: 3em 0 3em 0;
     flex: 1 1 100px;
 }
 
 main {
     background: blue;
-    padding: 3em 0;
+    padding: 3em 0 3em 0;
     flex: 5 5 150px;
 }
 
 .right {
     background: blue;
-    padding: 3em 0;
+    padding: 3em 0 3em 0;
     flex: 1 1 100px;
 }
 
 footer {
     background:  blue;
-    padding: 1em 0;
+    padding: 1em 0 1em 0;
 }
 
 .main{
@@ -47,3 +47,12 @@ footer {
     flex: 1;
 }
 
+@media (max-width: 550px) {
+    .main {
+        flex-direction: column;
+        /* display: block; */
+    }
+    main {
+        padding: 5em 0 5em 0;
+    }
+}
